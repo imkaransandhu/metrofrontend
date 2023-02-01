@@ -10,8 +10,8 @@ const DropdownArray = [
         imgSrc: "../images/looking.png",
         imgAlt: "looking",
         links: [
-          { name: "Rental Listings", path: "property-search" },
-          { name: "Rental Process", path: "rental-process" },
+          { name: "Rental Listings", path: "metrofrontend/property-search" },
+          { name: "Rental Process", path: "metrofrontend/rental-process" },
         ],
       },
       {
@@ -19,19 +19,27 @@ const DropdownArray = [
         imgSrc: "../images/service.png",
         imgAlt: "looking",
         links: [
-          { name: "Tenant Services", path: "tenant-services" },
+          { name: "Tenant Services", path: "metrofrontend/tenant-services" },
           {
             name: "Own a home while renting",
-            path: "buy-a-home-while-renting",
+            path: "metrofrontend/buy-a-home-while-renting",
           },
-          { name: "Healthy home standards", path: "healthy-home-standards" },
+          {
+            name: "Healthy home standards",
+            path: "metrofrontend/healthy-home-standards",
+          },
         ],
       },
       {
         heading: "Meet a property manager",
         imgSrc: "../images/people.png",
         imgAlt: "looking",
-        links: [{ name: "Book an online meet", path: "book-an-online-meet" }],
+        links: [
+          {
+            name: "Book an online meet",
+            path: "metrofrontend/book-an-online-meet",
+          },
+        ],
       },
       {
         heading: "Keep track of your records",
@@ -51,10 +59,13 @@ const DropdownArray = [
         links: [
           {
             name: "Investment Properties Listing",
-            path: "book-an-online-meet",
+            path: "metrofrontend/book-an-online-meet",
           },
-          { name: "Open Homes", path: "book-an-online-meet" },
-          { name: "Buying Process", path: "book-an-online-meet" },
+          { name: "Open Homes", path: "metrofrontend/book-an-online-meet" },
+          {
+            name: "Buying Process",
+            path: "metrofrontend/book-an-online-meet",
+          },
         ],
       },
       {
@@ -62,9 +73,18 @@ const DropdownArray = [
         imgSrc: "../images/service.png",
         imgAlt: "Services",
         links: [
-          { name: "Sell tenanted properties", path: "healthy-home-standards" },
-          { name: "Sell tenanted properties", path: "healthy-home-standards" },
-          { name: "Healthy home standards", path: "healthy-home-standards" },
+          {
+            name: "Sell tenanted properties",
+            path: "metrofrontend/healthy-home-standards",
+          },
+          {
+            name: "Sell tenanted properties",
+            path: "metrofrontend/healthy-home-standards",
+          },
+          {
+            name: "Healthy home standards",
+            path: "metrofrontend/healthy-home-standards",
+          },
         ],
       },
       {
@@ -72,8 +92,14 @@ const DropdownArray = [
         imgSrc: "../images/people.png",
         imgAlt: "People",
         links: [
-          { name: "Metro Property Manager", path: "healthy-home-standards" },
-          { name: "Finance Adviser", path: "healthy-home-standards" },
+          {
+            name: "Metro Property Manager",
+            path: "metrofrontend/healthy-home-standards",
+          },
+          {
+            name: "Finance Adviser",
+            path: "metrofrontend/healthy-home-standards",
+          },
         ],
       },
       {
@@ -94,15 +120,24 @@ const DropdownArray = [
         links: [
           {
             name: "Residential Property Management",
-            path: "healthy-home-standards",
+            path: "metrofrontend/healthy-home-standards",
           },
           {
             name: "Commercial Property Management",
-            path: "healthy-home-standards",
+            path: "metrofrontend/healthy-home-standards",
           },
-          { name: "Finding Tenant Process", path: "healthy-home-standards" },
-          { name: "Free Rental Appraisal", path: "healthy-home-standards" },
-          { name: "Change to Metro", path: "healthy-home-standards" },
+          {
+            name: "Finding Tenant Process",
+            path: "metrofrontend/healthy-home-standards",
+          },
+          {
+            name: "Free Rental Appraisal",
+            path: "metrofrontend/healthy-home-standards",
+          },
+          {
+            name: "Change to Metro",
+            path: "metrofrontend/healthy-home-standards",
+          },
         ],
       },
       {
@@ -110,12 +145,18 @@ const DropdownArray = [
         imgSrc: "../images/looking.png",
         imgAlt: "looking",
         links: [
-          { name: "Building Management", path: "healthy-home-standards" },
+          {
+            name: "Building Management",
+            path: "metrofrontend/healthy-home-standards",
+          },
           {
             name: "Body Corporate Administration",
-            path: "healthy-home-standards",
+            path: "metrofrontend/healthy-home-standards",
           },
-          { name: "Change to Metro", path: "healthy-home-standards" },
+          {
+            name: "Change to Metro",
+            path: "metrofrontend/healthy-home-standards",
+          },
         ],
       },
       {
@@ -123,12 +164,18 @@ const DropdownArray = [
         imgSrc: "../images/service.png",
         imgAlt: "service",
         links: [
-          { name: "Free property appraisal", path: "healthy-home-standards" },
+          {
+            name: "Free property appraisal",
+            path: "metrofrontend/healthy-home-standards",
+          },
           {
             name: "Renovation Project Management",
-            path: "healthy-home-standards",
+            path: "metrofrontend/healthy-home-standards",
           },
-          { name: "Decluttering Service", path: "healthy-home-standards" },
+          {
+            name: "Decluttering Service",
+            path: "metrofrontend/healthy-home-standards",
+          },
         ],
       },
       {
@@ -138,11 +185,11 @@ const DropdownArray = [
         links: [
           {
             name: "Residential Property Manager",
-            path: "healthy-home-standards",
+            path: "metrofrontend/healthy-home-standards",
           },
           {
             name: "Commercial Property Manager",
-            path: "healthy-home-standards",
+            path: "metrofrontend/healthy-home-standards",
           },
         ],
       },
@@ -164,11 +211,11 @@ const DropdownArray = [
         links: [
           {
             name: "Our team",
-            path: "meet-our-professionals",
+            path: "metrofrontend/meet-our-professionals",
           },
           {
             name: "Dispute Process",
-            path: "healthy-home-standards",
+            path: "metrofrontend/healthy-home-standards",
           },
         ],
       },
@@ -179,11 +226,11 @@ const DropdownArray = [
         links: [
           {
             name: "News",
-            path: "healthy-home-standards",
+            path: "metrofrontend/healthy-home-standards",
           },
           {
             name: "Gallery",
-            path: "healthy-home-standards",
+            path: "metrofrontend/healthy-home-standards",
           },
         ],
       },
@@ -194,7 +241,7 @@ const DropdownArray = [
         links: [
           {
             name: "We are hiring",
-            path: "healthy-home-standards",
+            path: "metrofrontend/healthy-home-standards",
           },
         ],
       },

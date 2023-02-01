@@ -64,7 +64,7 @@ const App = () => {
             element={<PropertySearch />}
           />
 
-          <Route exact path="metrofrontend/login" element={<Login />} />
+          <Route exact path="/metrofrontend/login" element={<Login />} />
           <Route path="metrofrontend/register" element={<Signup />} />
           {/* My Dairy Site */}
           <Route
