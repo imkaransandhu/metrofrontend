@@ -1,5 +1,6 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
+import URL from "../../../Connection/URL";
 import LoginPropertyManager from "./LoginPropertyManager";
 
 const LoginImage = () => {
@@ -12,7 +13,7 @@ const LoginImage = () => {
 
     let config = {
       method: "post",
-      url: "http://localhost:5000/login/stevePM",
+      url: `${URL}/login/stevePM`,
       headers: {
         "Content-Type": "application/json",
       },

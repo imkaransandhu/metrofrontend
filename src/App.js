@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 
 // Context
 import LoggedUserContext from "./Context/LoggedUserContext";
@@ -34,80 +34,53 @@ const App = () => {
   const loggedUser = useState(null);
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       {/* User context/state  */}
       <LoggedUserContext.Provider value={loggedUser}>
         {/* The rest of your app goes here */}
         <Header />
         <UserNavbar />
         {/* our routes */}
-        <Routes>
-          <Route path="metrofrontend" element={<Home />} />
+        <Routes HashRouter={HashRouter}>
+          <Route path="/" element={<Home />} />
+          <Route path="/rental-process" element={<RentalProcess />} />
+          <Route path="/tenant-services" element={<TenantServices />} />
           <Route
-            path="metrofrontend/rental-process"
-            element={<RentalProcess />}
-          />
-          <Route
-            path="metrofrontend/tenant-services"
-            element={<TenantServices />}
-          />
-          <Route
-            path="metrofrontend/buy-a-home-while-renting"
+            path="/buy-a-home-while-renting"
             element={<BuyHomeWhileRenting />}
           />
           <Route
-            path="metrofrontend/meet-our-professionals"
+            path="/meet-our-professionals"
             element={<MeetOurProfessionals />}
           />
-          <Route
-            path="metrofrontend/property-search"
-            element={<PropertySearch />}
-          />
+          <Route path="/property-search" element={<PropertySearch />} />
 
-          <Route exact path="/metrofrontend/login" element={<Login />} />
-          <Route path="metrofrontend/register" element={<Signup />} />
+          <Route exact path="/login" element={<Login />} />
+          <Route path="/register" element={<Signup />} />
           {/* My Dairy Site */}
+          <Route path="/welcome-board-1" element={<WelcomeBoard1 />} />
+          <Route path="/welcome-board-2" element={<WelcomeBoard2 />} />
+          <Route path="/my-dairy/new-user" element={<NewUser />} />
+          <Route path="/my-dairy/existing-user" element={<ExistingUser />} />
+          <Route path="/my-dairy" element={<NewUser />} />
+          <Route path="/my-dairy/my-account" element={<Md1Account />} />
+          <Route path="/my-dairy/my-favorite" element={<Md2Favorite />} />
           <Route
-            path="metrofrontend/welcome-board-1"
-            element={<WelcomeBoard1 />}
-          />
-          <Route
-            path="metrofrontend/welcome-board-2"
-            element={<WelcomeBoard2 />}
-          />
-          <Route path="metrofrontend/my-dairy/new-user" element={<NewUser />} />
-          <Route
-            path="metrofrontend/my-dairy/existing-user"
-            element={<ExistingUser />}
-          />
-          <Route path="metrofrontend/my-dairy" element={<NewUser />} />
-          <Route
-            path="metrofrontend/my-dairy/my-account"
-            element={<Md1Account />}
-          />
-          <Route
-            path="metrofrontend/my-dairy/my-favorite"
-            element={<Md2Favorite />}
-          />
-          <Route
-            path="metrofrontend/my-dairy/my-applications"
+            path="/my-dairy/my-applications"
             element={<Md2Applications />}
           />
 
           {/* Tenancy Application Site */}
+          <Route path="/tenancy-application" element={<TAYourDetail />} />
           <Route
-            path="metrofrontend/tenancy-application"
-            element={<TAYourDetail />}
-          />
-          <Route
-            path="metrofrontend/tenancy-application-complete"
+            path="/tenancy-application-complete"
             element={<TAComplete />}
           />
         </Routes>
         <Newsletter />
         <Footer />
       </LoggedUserContext.Provider>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
