@@ -53,26 +53,26 @@ const UserNavbar = () => {
           getActiveTab={setActiveUserItem}
           activeUserItem={activeUserItem}
           item={"My Account"}
-          link={"/my-dairy/my-account"}
+          link={"/metrofrontend/my-dairy/my-account"}
         />
         <ItemUserNavbar
           getActiveTab={setActiveUserItem}
           activeUserItem={activeUserItem}
           item={"My Favorites"}
-          link={"/my-dairy/my-favorite"}
+          link={"/metrofrontend/my-dairy/my-favorite"}
         />
 
         <ItemUserNavbar
           getActiveTab={setActiveUserItem}
           activeUserItem={activeUserItem}
           item={"My Applications"}
-          link={"/my-dairy/my-applications"}
+          link={"/metrofrontend/my-dairy/my-applications"}
         />
         <ItemUserNavbar
           getActiveTab={setActiveUserItem}
           activeUserItem={activeUserItem}
           item={"Talk to us"}
-          link={"/meet-our-professionals"}
+          link={"/metrofrontend/meet-our-professionals"}
         />
         <ItemUserNavbar
           getActiveTab={setActiveUserItem}

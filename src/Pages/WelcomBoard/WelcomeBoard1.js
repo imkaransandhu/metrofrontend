@@ -15,7 +15,7 @@ const WelcomeBoard1 = () => {
         veniam, quis nostrud exercitation ullamco laboris
       </p>
 
-      <Link to="/" className=" text-red1 font-bold underline -mt-8 ">
+      <Link to="/metrofrontend/" className=" text-red1 font-bold underline -mt-8 ">
         Skip onboarding
       </Link>
 

@@ -19,8 +19,8 @@ const References = () => {
             <OtherReferences />
             <div className='flex justify-between mx-[10rem]'>
 
-                <Link to="/tenancy-application-co-applicants"><BackBtn /></Link>
-                <Link to="/tenancy-application-reviews"><NextBtn /></Link>
+                <Link to="/metrofrontend/tenancy-application-co-applicants"><BackBtn /></Link>
+                <Link to="/metrofrontend/tenancy-application-reviews"><NextBtn /></Link>
 
 
 
