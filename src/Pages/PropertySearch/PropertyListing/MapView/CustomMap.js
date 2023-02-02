@@ -94,7 +94,7 @@ const CustomMap = ({
               <Marker
                 key={i}
                 icon={{
-                  url: "./images/property.png",
+                  url: "https://cdn-icons-png.flaticon.com/512/25/25694.png",
                   alt: "home",
                 }}
                 property={property}
