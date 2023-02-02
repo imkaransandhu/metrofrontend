@@ -7,7 +7,7 @@ const DropdownArray = [
     array: [
       {
         heading: "Looking to rent",
-        imgSrc: "../images/looking.png",
+        imgSrc: "./images/looking.png",
         imgAlt: "looking",
         links: [
           { name: "Rental Listings", path: "metrofrontend/property-search" },
@@ -16,7 +16,7 @@ const DropdownArray = [
       },
       {
         heading: "Metro Rental Services",
-        imgSrc: "../images/service.png",
+        imgSrc: "./images/service.png",
         imgAlt: "looking",
         links: [
           { name: "Tenant Services", path: "metrofrontend/tenant-services" },
@@ -32,7 +32,7 @@ const DropdownArray = [
       },
       {
         heading: "Meet a property manager",
-        imgSrc: "../images/people.png",
+        imgSrc: "./images/people.png",
         imgAlt: "looking",
         links: [
           {
@@ -43,7 +43,7 @@ const DropdownArray = [
       },
       {
         heading: "Keep track of your records",
-        imgSrc: "../images/record.png",
+        imgSrc: "./images/record.png",
         imgAlt: "Record",
       },
     ],
@@ -54,7 +54,7 @@ const DropdownArray = [
     array: [
       {
         heading: "Looking to invest",
-        imgSrc: "../images/looking.png",
+        imgSrc: "./images/looking.png",
         imgAlt: "looking",
         links: [
           {
@@ -70,7 +70,7 @@ const DropdownArray = [
       },
       {
         heading: "Metro Services",
-        imgSrc: "../images/service.png",
+        imgSrc: "./images/service.png",
         imgAlt: "Services",
         links: [
           {
@@ -89,7 +89,7 @@ const DropdownArray = [
       },
       {
         heading: "Book and online meet",
-        imgSrc: "../images/people.png",
+        imgSrc: "./images/people.png",
         imgAlt: "People",
         links: [
           {
@@ -104,7 +104,7 @@ const DropdownArray = [
       },
       {
         heading: "Keep track of your records",
-        imgSrc: "../images/record.png",
+        imgSrc: "./images/record.png",
         imgAlt: "Record",
       },
     ],
@@ -115,7 +115,7 @@ const DropdownArray = [
     array: [
       {
         heading: "Looking for Property Management",
-        imgSrc: "../images/property.png",
+        imgSrc: "./images/property.png",
         imgAlt: "property",
         links: [
           {
@@ -142,7 +142,7 @@ const DropdownArray = [
       },
       {
         heading: "Looking for Building Management",
-        imgSrc: "../images/looking.png",
+        imgSrc: "./images/looking.png",
         imgAlt: "looking",
         links: [
           {
@@ -161,7 +161,7 @@ const DropdownArray = [
       },
       {
         heading: "Looking to sell Tenanted Property",
-        imgSrc: "../images/service.png",
+        imgSrc: "./images/service.png",
         imgAlt: "service",
         links: [
           {
@@ -180,7 +180,7 @@ const DropdownArray = [
       },
       {
         heading: "Book an online meet",
-        imgSrc: "../images/people.png",
+        imgSrc: "./images/people.png",
         imgAlt: "people",
         links: [
           {
@@ -195,7 +195,7 @@ const DropdownArray = [
       },
       {
         heading: "Keep track of your records",
-        imgSrc: "../images/record.png",
+        imgSrc: "./images/record.png",
         imgAlt: "Record",
       },
     ],
@@ -206,7 +206,7 @@ const DropdownArray = [
     array: [
       {
         heading: "About Us",
-        imgSrc: "../images/property.png",
+        imgSrc: "./images/property.png",
         imgAlt: "Property",
         links: [
           {
@@ -221,7 +221,7 @@ const DropdownArray = [
       },
       {
         heading: "Metro News",
-        imgSrc: "../images/service.png",
+        imgSrc: "./images/service.png",
         imgAlt: "Services",
         links: [
           {
@@ -236,7 +236,7 @@ const DropdownArray = [
       },
       {
         heading: "Join Us",
-        imgSrc: "../images/people.png",
+        imgSrc: "./images/people.png",
         imgAlt: "People",
         links: [
           {
@@ -247,7 +247,7 @@ const DropdownArray = [
       },
       {
         heading: "Property Management Albany",
-        imgSrc: "../images/people.png",
+        imgSrc: "./images/people.png",
         imgAlt: "People",
         text: `Looking for Property Management in Albany? Metro
         NZ is a leading property management compnay in Auckland. Phone 
@@ -265,7 +265,7 @@ const DropdownArray = [
     array: [
       {
         heading: "Location",
-        imgSrc: "../images/location.png",
+        imgSrc: "./images/location.png",
         imgAlt: "location",
         text: (
           <Fragment>
@@ -279,19 +279,19 @@ const DropdownArray = [
       },
       {
         heading: "Mail",
-        imgSrc: "../images/email.png",
+        imgSrc: "./images/email.png",
         imgAlt: "email",
         text: "info@metronz.co.nz",
       },
       {
         heading: "Phone",
-        imgSrc: "../images/phone.png",
+        imgSrc: "./images/phone.png",
         imgAlt: "phone",
         text: "+64 9 391 4642",
       },
       {
         heading: "Our Albany Team",
-        imgSrc: "../images/people.png",
+        imgSrc: "./images/people.png",
         imgAlt: "People",
         text: `Looking for Property Management in Albany? 
         Metro Nz is a leading property management company in Auckland. 
