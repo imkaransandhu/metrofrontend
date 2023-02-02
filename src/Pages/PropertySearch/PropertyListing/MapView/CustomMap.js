@@ -94,8 +94,7 @@ const CustomMap = ({
               <Marker
                 key={i}
                 icon={{
-                  url: "https://cdn-icons-png.flaticon.com/512/25/25694.png",
-                  alt: "home",
+                  url: "https://imkaransandhu.github.io/metrofrontend/images/property.png",
                 }}
                 property={property}
                 position={property.geoCode}
