@@ -21,7 +21,7 @@ const NavMobile = ({ handleMobileNavbar }) => {
   }
 
   function handleMyAccount() {
-    navigate("/login");
+    navigate("/metrofrontend/login");
     handleMobileNavbar();
   }
 
