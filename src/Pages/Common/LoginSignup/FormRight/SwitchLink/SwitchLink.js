@@ -4,11 +4,11 @@ import TextRed from "../RedText/TextRed";
 const SwitchLink = ({ text, buttonText }) => {
   return (
     <Link
-      to={`/${buttonText}`}
+      to={`/metrofrontend/${buttonText}`}
       className={`italic text-paragraph capitalize text-[#424343B2]  text-right mx-auto w-full `}
     >
       {text}
-      <TextRed customClass="underline font-bold " text={buttonText} />
+      <TextRed customClass="underline font-bold  " text={buttonText} />
     </Link>
   );
 };

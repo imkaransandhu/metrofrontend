@@ -22,7 +22,7 @@ const LoginMain = () => {
       <LineText text="or continue with account," />
       <RequiredText />
       <LoginForm />
-      <SwitchLink text="Don’t you have an account?" buttonText={"Register"} />
+      <SwitchLink text="Don’t you have an account?" buttonText={"register"} />
     </div>
   );
 };

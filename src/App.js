@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 
 // Context
 import LoggedUserContext from "./Context/LoggedUserContext";
@@ -34,7 +34,7 @@ const App = () => {
   const loggedUser = useState(null);
 
   return (
-    <BrowserRouter>
+    <HashRouter>
       {/* User context/state  */}
       <LoggedUserContext.Provider value={loggedUser}>
         {/* The rest of your app goes here */}
@@ -107,7 +107,7 @@ const App = () => {
         <Newsletter />
         <Footer />
       </LoggedUserContext.Provider>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
 
