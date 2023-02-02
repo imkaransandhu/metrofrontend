@@ -94,7 +94,8 @@ const CustomMap = ({
               <Marker
                 key={i}
                 icon={{
-                  url: "./../images/property.png",
+                  url: "./images/property.png",
+                  alt: "home",
                 }}
                 property={property}
                 position={property.geoCode}
