@@ -47,7 +47,7 @@ const UserNavbar = () => {
           getActiveTab={setActiveUserItem}
           activeUserItem={activeUserItem}
           item={"Profile"}
-          link={"/my-dairy/existing-user"}
+          link={"/metrofrontend/my-dairy/existing-user"}
         />
         <ItemUserNavbar
           getActiveTab={setActiveUserItem}
