@@ -2,6 +2,7 @@ import React from 'react'
 import { useState } from 'react';
 import FormTitle from './FormTitle';
 import SubscribeBtn from './SubscribeBtn';
+import Url from './../../Connection/URL'
 
 const FormNewsletter = () => {
   const [userInput, setUserInput] = useState('');
@@ -27,7 +28,7 @@ const FormNewsletter = () => {
       redirect: 'follow'
     };
 
-    fetch("http://localhost:5000/Subscribe", requestOptions)
+    fetch(`${Url}/Subscribe`, requestOptions)
       .then(res => res.text())
       .then(result => {
         console.log(result, "subscribed")

@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import PopUpForm1 from './PopUpForm1'
 import { Link } from 'react-router-dom'
+import Url from './../../../../../../Connection/URL'
 
 const PropertyManagersPopUp6 = ({ closePopUp }) => {
     const [showData, setShowData] = useState(true)

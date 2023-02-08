@@ -12,7 +12,7 @@ import InputFilter from "./InputFilter";
 import SearchBtn from "./SearchBtn";
 import CallBtn from "./../../../../CommonComponents/PropertyManagers/ManagerCardSection/Buttons/CallBtn"
 import ManagerComponents from "./PopUp/ManagersComponents/ManagerComponents";
-
+import Url from "../../../../../Connection/URL"
 const PropertyManagerSearch = () => {
   const [openPopUp1, setOpenPopUp1] = useState(false);
   const [openPopUp2, setOpenPopUp2] = useState(false);
@@ -27,7 +27,7 @@ const PropertyManagerSearch = () => {
   const [inputLocation, setInputLocation] = useState("");
 
 
-  let URL = "http://localhost:5000/propertyManagers?";
+  let URL = `${Url}/propertyManagers?`;
 
   let requestOptions = {
     method: 'POST',

@@ -1,11 +1,12 @@
 import React, { useState, useEffect } from 'react'
 import PopUpForm1 from './PopUpForm1'
+import Url from './../../../../../../Connection/URL'
 
 const PropertyManagersPopUp3 = ({ closePopUp }) => {
     const [showData, setShowData] = useState(true)
 
     useEffect(() => {
-        fetch("http://localhost:5000/propertyManagers/63b0c5184aa0047bb15e89aa")
+        fetch(`${Url}/propertyManagers/63b0c5184aa0047bb15e89aa`)
             .then(response => response.json())
             .then(result => {
                 console.log(result);

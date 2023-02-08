@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import PopUpForm1 from './PopUpForm1'
-
+import Url from './../../../../../../Connection/URL'
 const PropertyManagersPopUp1 = ({ closePopUp }) => {
     const [showData, setShowData] = useState(true)
 

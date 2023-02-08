@@ -23,8 +23,8 @@ const CoApplicants = () => {
 
             <div className='flex justify-between mx-[10rem]'>
 
-                <Link to="/tenancy-application-your-detail"><BackBtn /></Link>
-                <Link to="/tenancy-application-references"><NextBtn /></Link>
+                <Link to="/metrofrontend/tenancy-application-your-detail"><BackBtn /></Link>
+                <Link to="/metrofrontend/tenancy-application-references"><NextBtn /></Link>
 
 
 

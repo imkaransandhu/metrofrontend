@@ -27,8 +27,8 @@ const Reviews = () => {
 
             <div className='lg:px-[10rem] flex  w-full justify-start'>
 
-                <Link to="/"><SaveBtn /></Link>
-                <Link to="/tenancy-application-complete"><SubmitBtn /></Link>
+                <Link to="/metrofrontend"><SaveBtn /></Link>
+                <Link to="/metrofrontend/tenancy-application-complete"><SubmitBtn /></Link>
 
             </div>
 
