@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/metrofrontend/static/css/main.acacf7a4.css",
-    "main.js": "/metrofrontend/static/js/main.5e8e16c6.js",
+    "main.css": "/metrofrontend/static/css/main.998143e0.css",
+    "main.js": "/metrofrontend/static/js/main.904fc755.js",
     "static/media/pic.png": "/metrofrontend/static/media/pic.058f6d5c540ddae4762c.png",
     "static/media/bg.png": "/metrofrontend/static/media/bg.6e4a25d753330abb3f06.png",
     "static/media/marbleBg.png": "/metrofrontend/static/media/marbleBg.9982ee9a5bef03b86308.png",
@@ -9,11 +9,11 @@
     "static/media/revicons.ttf": "/metrofrontend/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/metrofrontend/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/metrofrontend/index.html",
-    "main.acacf7a4.css.map": "/metrofrontend/static/css/main.acacf7a4.css.map",
-    "main.5e8e16c6.js.map": "/metrofrontend/static/js/main.5e8e16c6.js.map"
+    "main.998143e0.css.map": "/metrofrontend/static/css/main.998143e0.css.map",
+    "main.904fc755.js.map": "/metrofrontend/static/js/main.904fc755.js.map"
   },
   "entrypoints": [
-    "static/css/main.acacf7a4.css",
-    "static/js/main.5e8e16c6.js"
+    "static/css/main.998143e0.css",
+    "static/js/main.904fc755.js"
   ]
 }
